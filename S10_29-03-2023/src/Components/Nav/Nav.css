@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.nav {
+    display: flex;
+    background-color: black;
+    color:white;
+    height:60px;
+    justify-content: space-between;
+}
+.title {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color:white;
+    text-decoration: none;
+    margin-right: 50px;
+}
