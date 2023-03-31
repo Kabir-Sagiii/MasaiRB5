@@ -1,0 +1,20 @@
+.card {
+     width: 300px;
+     padding:20px;
+     box-shadow: 0 0 10px black;
+     text-align: center;
+}
+.container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+.card button {
+    padding:10px 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
