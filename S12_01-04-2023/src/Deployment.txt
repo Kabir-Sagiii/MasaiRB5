@@ -1,0 +1,62 @@
+
+Deployment on Netlify
+----------------------
+1. First go to https://www.netlify.com/ and create an account using Github.
+
+2. Install the netlify CLI(command line interface) using 
+           npm install netlify-cli -g.
+
+3. In your package.json add a field name with value
+              "Homepage":".”
+
+4.npm run build - for building your project
+               npm run build
+
+5.In your build folder, create _redirects file.
+
+6.Add the following to the _redirects file
+/* /index.html 200
+
+7. Now type netlify deploy 
+    and visit the link it provides to verify your account.
+
+8.Once you are done verifying, it should give you some options, like 
+      - select + Create & configure a new site .
+      - select a team, this would usually be the same as your Netlify-ID.
+
+9. Then give your website some unique name. (Enter)
+
+10. In the deploy folder option 
+            type build.
+
+11. Your draft should be live on the Live Draft 
+     URL:. Visit the link and make sure your application is working correctly.
+
+12. If you application is working, type netlify deploy --prod to deploy the application. 
+    The deploy path should be build.
+
+
+
+Deployment on Vercel
+------------------------------
+0. create the account on vercel platform
+
+1. install now globlaly 
+       npm i -g vercel
+
+2.move inside your react app folder 
+make sure you are on the entry folder package.json etc is located.
+
+3.run the command the following command
+     vercel 
+
+4.If not logged in, or if no account created you might be asked to. 
+once login and authentication is setup, the terminal will ask you a few questions to setup 
+and deploy
+
+5.Once that is over, it will show its ready and gives you a production link
+
+
+6.If you want to deploy it to a production build, then do 
+       vercel --prod
+
