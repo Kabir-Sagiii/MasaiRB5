@@ -1,0 +1,118 @@
+Redux 
+---------
+
+What is Redux
+-------------------
+Redux is a pattern and Library
+
+What is the purpose of Redux
+--------------------------------------
+Redux is used to manage the state of Application
+
+Redux can manage state in the complex Application
+
+Using Redux we can pass data from any component to any component irrespective of  relationship
+
+What is Store
+------------------
+Store is a container where we can store the data,
+
+Technically store is the object.
+
+Data in the store can be modified or updated  using a special function called Reducer.
+
+
+Reducer
+-----------
+Reducer is a special function, which  contains two parameter  i.e 1)State and 2) action
+
+                state parameter stores the current redux store data
+                action parameter used to hold action object.
+
+and it returns the store data.
+
+Reducer as the access to store data using first parameter
+
+Reducers are used to perform some actions to modify the current store data.
+
+Action object let reducer know What action need to be performed and modify  store data 
+
+Reducer will receive the action object using the dispatch() 
+
+Reducer will store action object received by dispatch in the second parameter
+
+
+Dispatch()
+--------------
+dispatch() is a special function which is used to pass action object to the Reducer
+
+dispatch takes one argument and i.e is action object.
+
+Action Object
+------------------
+Action is a object which contain one mandatory property i.e type:""
+
+using type property reducer decided what action or operation need to be performed on the store data,
+
+Action object is used to hold data and pass it to the reducer using second property via dispatch()
+
+Action Creator
+---------------------
+Action Creator are the functions which returns the Action object
+
+Action Types
+------------------
+Action Types are used to configure the type for action object
+
+
+
+
+
+Redux Pattern Flow
+--------------------------
+                         Components ------------------------------- Store
+
+
+       1)  Component will Call Dispatch() and pass Action Creator as Argument to Dispatch() 
+            Component will pass data to Action Creator as a First Argument.
+
+        2) Action Creator will store the data in Action Object and it returns the Action Object.
+
+       3)  Dispatch will dispatches(pass)  the action object to reducer and reducer will store action object in second parameter of it
+
+       4) Reducer will have access to store data using first parameter and decided what action need to be formed on the
+            store data using action object.
+                     - Reducer will perform the action on store data to modify it and returns that modified data to Redux store
+
+       5) Redux store receives the data from and reducer and it stores the data in its redux store.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

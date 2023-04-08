@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 102,
+      "name": "Sneha",
+      "status": true
+    },
+    {
+      "name": "Masai",
+      "id": 105
+    },
+    {
+      "name": "Ram",
+      "status": true,
+      "id": 107
+    },
+    {
+      "name": "Kabir",
+      "status": true,
+      "id": 108
+    },
+    {
+      "name": "cdjbcjdks",
+      "status": true,
+      "id": 109
+    }
+  ]
+}
