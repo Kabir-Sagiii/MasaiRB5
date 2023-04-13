@@ -49,6 +49,7 @@ function thunkActionCreator(methodType, id, user, setUser) {
         });
       });
     };
+
     if (methodType === "get") {
       getData(dispatch);
     } else if (methodType === "delete") {
