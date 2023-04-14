@@ -1,0 +1,18 @@
+What is Rendering ?
+The process of Converting the code into plan html , css and JS  for generating a visual representation of a website or web application in a web browser or on a Web server.
+
+What happens During Rendering ?
+During the rendering process, the browser parses the HTML and CSS code to determine how the content should be displayed on the screen. The JavaScript code is executed to add interactivity and dynamic behavior to the website. The end result is a visual representation of the website that the user can interact with.
+
+How Many types of Rendering We have?
+ 1.Server-side rendering (SSR) and 
+ 2.Client-side rendering (CSR).
+
+
+What is Server Side Rendering ?
+Server-side rendering (SSR) is a process in web development where a server generates HTML and CSS code for a website or web application, which is then sent to the client (i.e., the user's web browser) for display. 
+
+
+What is Client Side Rendering ?
+Client-side rendering (CSR) is a web development approach that involves generating HTML, CSS, and JavaScript on the client's browser instead of on the server. In this approach, the server sends only the necessary data and files to the browser, and the browser then renders the content. This is in contrast to server-side rendering (SSR), where the server generates the HTML, CSS, and JavaScript before sending it to the browser.
+
