@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Ayush Ram Verma",
+      "image": "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwbWFsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Jiya Sinha",
+      "image": "https://www.shutterstock.com/image-photo/cheerful-attractive-indian-young-women-260nw-1485745535.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Zoya Khan",
+      "image": "https://media.istockphoto.com/id/1370858711/photo/portrait-of-confident-young-middle-eastern-woman-smiling-and-looking-at-camera-in-coworking.jpg?s=612x612&w=0&k=20&c=wwwY_uNnOC28sinWrupt3pNtbUL6xwVOslFvL2-XKg8="
+    },
+    {
+      "id": 4,
+      "name": "Christain J",
+      "image": "https://media.gettyimages.com/id/1136413215/photo/young-man-at-street-market.jpg?s=612x612&w=gi&k=20&c=XsvT59r4ASMz3tttajBraC9esH7dzZXnBrRdM58ZsW0="
+    },
+    {
+      "id": 5,
+      "name": "Pratibha Singh",
+     "image":"https://i.pinimg.com/originals/f6/14/7d/f6147d28465e4d1968af584f0a7f1df1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Rahul Sharma",
+      "image": "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwbWFsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+    }
+
+  ]
+  
+}

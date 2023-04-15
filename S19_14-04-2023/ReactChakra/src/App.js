@@ -9,11 +9,13 @@ import GridCom from "./Components/GridCom";
 import Responsive from "./Components/Responsive";
 import InputComp from "./Components/Input";
 import FormComp from "./Components/FormComp";
+import UseReducerComp from "./Components/UseReducerComp";
 
 function App() {
   return (
     <div className="App">
-      <FormComp />
+      <UseReducerComp />
+      {/* <FormComp /> */}
       {/* <BoxComp /> */}
       {/* <ContainerComp /> */}
       {/* <StackComp /> */}
